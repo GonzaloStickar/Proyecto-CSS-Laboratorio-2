@@ -6,6 +6,7 @@
 
 /* ORGANIZAR LAS DECLARACIONES EN BLOQUES*/
 #menu-principal {
+  /* esto es un cambio hecho por diego */
     margin:2rem;
     display: flex;
     flex-direction:row;
