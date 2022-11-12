@@ -1,0 +1,85 @@
+/***********************************************
+
+ Autores: Integrante 1 - Integrante 2
+
+***********************************************/
+
+/* ORGANIZAR LAS DECLARACIONES EN BLOQUES*/
+#menu-principal {
+    margin:2rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.boton-menu {
+    width: 100px;
+    height: 40px;
+    margin:5px;
+}
+
+#btn-perfil {
+    margin-right: auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color:white;
+    border-style:hidden;
+    background-color: blue;
+}
+#btn-carrito {
+    border-radius: 5px;
+    color:white;
+    background-color: green;
+    margin-left: auto;
+}
+
+
+
+
+.plantilla-item {
+    height: 70%;
+    width: 80%;
+    margin:8px;
+}
+main {
+    display:block;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+/* ESTILOS GENERALES*/
+header 
+
+/* ESTILOS DE BARRA DE NAVEGACIÓN */
+.boton-menu:nth-last-child(2) {
+    background-color:orange;
+}
+
+.boton-menu:nth-last-child(2):hover {
+    background-color: rgba(255, 170, 0, 0.887);
+}
+
+.boton-menu {
+    background-color: blueviolet;
+    color:white;
+}
+.boton-menu:hover {
+    background-color: rgba(137, 43, 226, 0.887);
+}
+
+#btn-perfil:hover {
+    background-color: #3c3cffc5;
+}
+
+#btn-carrito:hover {
+    background-color: rgba(0, 128, 0, 0.705);
+}
+
+header {
+    background-color: rgb(255, 239, 239);
+}
+
+/* ESTILOS DE ...*/
