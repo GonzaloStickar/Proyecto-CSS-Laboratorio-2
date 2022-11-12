@@ -6,8 +6,6 @@
 
 /* ORGANIZAR LAS DECLARACIONES EN BLOQUES*/
 #menu-principal {
-  /* esto es un cambio hecho por diego */
-  /* otro comentario*/
     margin:2rem;
     display: flex;
     flex-direction:row;
@@ -30,15 +28,13 @@
     border-style:hidden;
     background-color: blue;
 }
+
 #btn-carrito {
     border-radius: 5px;
     color:white;
     background-color: green;
     margin-left: auto;
 }
-
-
-
 
 .plantilla-item {
     height: 70%;
@@ -49,11 +45,12 @@ main {
     display:block;
     display: flex;
     flex-direction:column;
-    align-items: center;
 }
 
 /* ESTILOS GENERALES*/
-header 
+.boton-menu:nth-last-child(4) {
+    margin-left:300px;
+}
 
 /* ESTILOS DE BARRA DE NAVEGACIÓN */
 .boton-menu:nth-last-child(2) {
