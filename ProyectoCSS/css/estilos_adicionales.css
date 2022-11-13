@@ -5,6 +5,11 @@
 ***********************************************/
 
 /*ESTILOS GENERALES*/
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
 h2 {
     font-family: "Calibri";
 }
@@ -172,7 +177,7 @@ footer {
     .boton-menu:nth-last-child(4) {
         margin-left:5px;
     }
-    .boton-menu:nth-last-child(2), .boton-menu:nth-last-child(3), .boton-menu:nth-last-child(4) {
+    /* .boton-menu:nth-last-child(2), .boton-menu:nth-last-child(3), .boton-menu:nth-last-child(4) {
         
-    }
+    } */
 }
