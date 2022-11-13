@@ -169,4 +169,10 @@ footer {
         margin-right: auto;
         margin:12.5px;
     }
+    .boton-menu:nth-last-child(4) {
+        margin-left:5px;
+    }
+    .boton-menu:nth-last-child(2), .boton-menu:nth-last-child(3), .boton-menu:nth-last-child(4) {
+        
+    }
 }
