@@ -18,6 +18,10 @@ h2 {
     color:rgb(0,192,245);
 }
 
+header {
+    background-color: #F5F5DC;
+}
+
 /*BARRA NAVEGACIÓN*/
 #menu-principal {
     margin:2rem;
@@ -65,10 +69,6 @@ h2 {
 
 #btn-carrito:hover {
     background-color: rgba(0, 128, 0, 0.705);
-}
-
-header {
-    background-color: #F5F5DC;
 }
 
 /*MENU-PRINCIPAL*/
