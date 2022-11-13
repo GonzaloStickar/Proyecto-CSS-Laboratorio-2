@@ -1,74 +1,64 @@
 /***********************************************
 
- Autores: Integrante 1 - Integrante 2
+ Autores: Diego Antonio Del Greco - Gonzalo Damian Stickar
 
 ***********************************************/
 
-/* ORGANIZAR LAS DECLARACIONES EN BLOQUES*/
+/*ESTILOS GENERALES*/
+h2 {
+    font-family: "Calibri";
+}
+
+.precio {
+    font-size:22px;
+    font-style: italic;
+}
+
+.medios-pago {
+    color:rgb(0,192,245);
+}
+
+/*BARRA NAVEGACIÓN*/
 #menu-principal {
     margin:2rem;
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .boton-menu {
-    width: 100px;
+    align-self: center;
+    width: 125px;
     height: 40px;
     margin:5px;
 }
 
 #btn-perfil {
+    margin-left:-27.5px;
     margin-right: auto;
     display: block;
+    border-radius: 50%;
+    border-style:hidden;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    align-self: center;
     color:white;
-    border-style:hidden;
     background-color: blue;
 }
 
 #btn-carrito {
+    margin-right:-25px;
+    width: 100px;
+    height: 45.47px;
+    align-self: center;
     border-radius: 5px;
     color:white;
     background-color: green;
     margin-left: auto;
+    border-style:hidden;
 }
 
-.plantilla-item {
-    height: 70%;
-    width: 80%;
-    margin:8px;
-}
-main {
-    display:block;
-    display: flex;
-    flex-direction:column;
-}
-
-/* ESTILOS GENERALES*/
-.boton-menu:nth-last-child(4) {
-    margin-left:300px;
-}
-
-/* ESTILOS DE BARRA DE NAVEGACIÓN */
-.boton-menu:nth-last-child(2) {
-    background-color:orange;
-}
-
-.boton-menu:nth-last-child(2):hover {
-    background-color: rgba(255, 170, 0, 0.887);
-}
-
-.boton-menu {
-    background-color: blueviolet;
-    color:white;
-}
-.boton-menu:hover {
-    background-color: rgba(137, 43, 226, 0.887);
-}
-
+/*ESTILOS DE BARRA DE NAVEGACIÓN */
 #btn-perfil:hover {
     background-color: #3c3cffc5;
 }
@@ -78,7 +68,93 @@ main {
 }
 
 header {
-    background-color: rgb(255, 239, 239);
+    background-color: #F5F5DC;
 }
 
-/* ESTILOS DE ...*/
+/*MENU-PRINCIPAL*/
+.boton-menu:nth-last-child(2) {
+    background-color:orange;
+}
+
+.boton-menu:nth-last-child(4) {
+    margin-left:350px;
+}
+
+.boton-menu:nth-last-child(2):hover {
+    background-color: rgba(255, 170, 0, 0.764);
+}
+
+.boton-menu {
+    background-color: rgb(47,79,79);
+    color:white;
+}
+
+.boton-menu:hover {
+    background-color: rgba(47,79,79, 0.887);
+}
+
+/*MAIN*/
+.plantilla-item {
+    height: 70%;
+    width: 80%;
+    margin:8px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.plantilla-izq {
+    display:flex;
+    flex-direction: column;
+    gap:0.3rem;
+    float:left;
+    height: 100%;
+    margin:0px 35px 0px 25px;
+    justify-content: center;
+}
+
+.plantilla-izq button {
+    border-radius: 5px;
+    color:white;
+    background-color: #008B8B;
+    height: 10%;
+    width: 95%;
+    border-style:hidden;
+    margin:2.5%;
+}
+
+.plantilla-izq button:hover {
+    background-color:#00A4B1;
+}
+
+.plantilla-der {
+    display:block;
+}
+
+/*ASIDE*/
+.barra-secundaria {
+    margin: 0.5rem;
+    margin-left:auto;
+    background-color:rgb(95, 158, 160);
+    width: 20%;
+    /*display:flex; ya declarado en estilos_iniciales.css*/
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.plantilla-secundaria {
+    height: 40px;
+    background-color: rgb(250,235,215);
+    margin:10px;
+}
+
+/*FOOTER*/
+footer {
+    display:flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
