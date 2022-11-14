@@ -27,6 +27,10 @@ header {
     background-color: #F5F5DC;
 }
 
+button:hover {
+    cursor:pointer;
+}
+
 /*BARRA NAVEGACIÓN*/
 #menu-principal {
     margin:0px 2rem 2rem 2rem;
@@ -67,11 +71,11 @@ header {
 }
 
 /*ESTILOS DE BARRA DE NAVEGACIÓN */
-#btn-perfil:hover {
+#btn-perfil:active {
     background-color: #3c3cffc5;
 }
 
-#btn-carrito:hover {
+#btn-carrito:active {
     background-color: rgba(0, 128, 0, 0.705);
 }
 
@@ -84,7 +88,7 @@ header {
     margin-left:350px;
 }
 
-.boton-menu:nth-last-child(2):hover {
+.boton-menu:nth-last-child(2):active {
     background-color: rgba(255, 170, 0, 0.764);
 }
 
@@ -93,9 +97,9 @@ header {
     color:white;
 }
 
-.boton-menu:hover {
-    background-color: rgba(47,79,79, 0.887);
-}
+.boton-menu:active {
+    background-color: rgba(47,79,79, 0.787);
+} 
 
 /*MAIN*/
 .plantilla-item {
@@ -130,7 +134,7 @@ main {
     margin:2.5%;
 }
 
-.plantilla-izq button:hover {
+.plantilla-izq button:active {
     background-color:#00A4B1;
 }
 
@@ -172,12 +176,13 @@ footer {
         right:0px;
         margin-left:-27.5px;
         margin-right: auto;
-        margin:12.5px;
+        margin:10px;
     }
     .boton-menu:nth-last-child(4) {
+        margin-top:5%;
         margin-left:5px;
     }
-    /* .boton-menu:nth-last-child(2), .boton-menu:nth-last-child(3), .boton-menu:nth-last-child(4) {
-        
-    } */
+    .boton-menu {
+        width: 100%;
+    }
 }
