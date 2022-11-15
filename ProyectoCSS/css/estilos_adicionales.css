@@ -120,7 +120,7 @@ button:hover {
 /*MAIN*/
 #contenedor-central{
   max-width: 120rem;
-  margin: 0 auto;
+  margin: 0px auto;
   overflow-x: hidden;
   padding: 2rem;
   display: flex;
