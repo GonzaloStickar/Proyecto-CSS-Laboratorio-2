@@ -139,6 +139,8 @@ main{
 }
 
 .plantilla-item {
+  min-width: auto;
+  height: auto;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -146,23 +148,12 @@ main{
   margin: 1rem;
   max-width: 100%;
   align-items: center;
-  /* height: 100%; */
-    /* width: 80%;
-    margin:8px;
-    margin-left:16px;
-    padding-top:10%; */
 }
 
 .plantilla-izq {
     display:flex;
     flex-direction: column;
     gap:0.1rem;
-    /* padding: 0.5rem 4rem; */
-    /* float:left; */
-    /* height: 100%; */
-    /* margin:0px 35px 0px 15px; */
-    /* justify-content: center; */
-    /* margin-top:-5%; */
 }
 
 .plantilla-izq button {
@@ -190,7 +181,6 @@ main{
     margin: 0.5rem;
     background-color:rgb(95, 158, 160);
     width: 100%;
-    /*display:flex; ya declarado en estilos_iniciales.css*/
     flex-direction: column;
     justify-content: space-around;
 }
