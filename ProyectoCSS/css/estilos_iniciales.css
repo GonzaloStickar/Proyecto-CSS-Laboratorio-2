@@ -6,9 +6,9 @@
 /* PLANTILLA DE PRODUCTOS: debe conservar estos estilos*/
 .plantilla-item{
     background-color:#ddd9d9;
-    /* min-width: 400px; */
-    /* max-width: 500px; */
-    /* height: 300px; */
+    min-width: 400px;
+    max-width: 500px;
+    height: 300px;
 }
 
 /* BARRA SECUNDARIA: debe aplicar el modelo flexbox */
