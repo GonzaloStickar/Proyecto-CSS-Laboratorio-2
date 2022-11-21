@@ -137,6 +137,8 @@ main{
 .plantilla-item {
   min-width: auto;
   height: auto;
+  /*Cambiamos los tamaños para que se vea mejor 
+  en una pantalla de "celular".*/
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -196,6 +198,10 @@ footer {
     }
     main {
         margin-bottom:0px;
+    }
+    
+    footer {
+        background-color:orange;
     }
 }
 
