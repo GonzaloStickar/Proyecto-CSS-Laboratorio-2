@@ -68,7 +68,6 @@ button:hover {
     border-style:hidden;
     width: 50px;
     height: 50px;
-    align-self: center;
     color:white;
     background-color: blue;
 }
@@ -76,9 +75,8 @@ button:hover {
 #btn-carrito {
     margin-left: auto;
     margin-right:-25px;
-    width: 100px;
-    height: 45.47px;
-    align-self: center;
+    width: 105px;
+    height: 45px;
     border-radius: 5px;
     color:white;
     background-color: green;
